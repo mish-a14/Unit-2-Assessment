@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <h3> There are no To Dos yet!</h3>
+    <p>Welcome to <%= title %></p>
+
+    
+    <hr>
+    <form method='POST' action='/submit'>
+    <input type='text' name='todos' autocomplete="off" required>
+    <button type='submit'>ADD TO TODOS</button>
+  </form>
+
+  <hr>
+
+  </body>
+</html>
